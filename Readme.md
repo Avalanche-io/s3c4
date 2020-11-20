@@ -1,4 +1,7 @@
 # `s3c4`
+
+![GoDoc](https://godoc.org/github.com/Avalanche-io/s3c4?status.svg)](https://godoc.org/github.com/avalanche-io/s3c4)
+
 A Go package implementing the c4 Store interface for AWS s3.
 
 ### Example Usage
@@ -64,8 +67,8 @@ func main() {
 }
 
 func DontPanic(err error) {
-	if err == nil {
-		return
+  if err == nil {
+    return
   }
 	panic(err)
 }
