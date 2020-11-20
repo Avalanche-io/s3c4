@@ -102,6 +102,6 @@ func TestS3c4(t *testing.T) {
 		}
 	}
 
-	// s3c4 store must be closed to wait for all writers to close.
+	// Closing insures all writers are closed.
 	store.Close()
 }
